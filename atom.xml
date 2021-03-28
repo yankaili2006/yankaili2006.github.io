@@ -17,27 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>前端开发/css</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/css/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/css/</id>
-    <published>2021-03-05T02:51:50.121Z</published>
-    <updated>2021-03-05T02:51:50.121Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://www.html.cn/book/css/properties/background/index.htm" target="_blank" rel="noopener">css教程</a></p><h4 id="css语法"><a href="#css语法" class="headerlink" title="css语法"></a>css语法</h4><p>CSS 规则由两个主要的部分构成：选择器，以及一条或多条声明</p><pre><code>selector {declaration1; declaration2; ... declarationN }</code></pre><h4 id="如何插入样式表"><a href="#如何插入样式表" class="headerlink" title="如何插入样式表"></a>如何插入样式表</h4><p>当读取到一个样式表时，浏览器会根据它来格式化 HTML 文档。插入样式表的方法有以下三种：</p><p>外部样式表(External style sheet)</p><pre><code>&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot;&gt;&lt;/head&gt;</code></pre><p>内部样式表(Internal style sheet)</p><pre><code>&lt;head&gt;&lt;style&gt;hr{color:sienna;}p{margin-left:20px;}body{background-image:url(&quot;images/back40.gif&quot;);}&lt;/style&gt;&lt;/head&gt;</code></pre><p>内联样式(Inline style)</p><pre><code>&lt;p style=&quot;color:sienna;margin-left:20px&quot;&gt;HTML中文网&lt;/p&gt;</code></pre><p>样式继承规则</p><pre><code>如果某些属性在不同的样式表中被同样的选择器定义，那么属性值将从更具体的样式表中被继承过来。 </code></pre><p>多重样式优先级</p><p>一般情况下，优先级如下：</p><pre><code>内联样式 &gt;内部样式 &gt;外部样式&gt; 浏览器默认样式</code></pre><p>注意：如果外部样式放在内部样式的后面，则外部样式将覆盖内部样式</p><h4 id="嵌套选择器"><a href="#嵌套选择器" class="headerlink" title="嵌套选择器"></a>嵌套选择器</h4><p>适用于选择器内部的选择器的样式,例：</p><pre><code>p{ }: 为所有的 p 元素指定一个样式.demo }: 为所有的class=&quot;demo&quot; 的元素指定一个样式.demo p{ }: 为所有 class=&quot;demo&quot; 元素内的 p 元素指定一个样式p.demo{ }: 为所有 class=&quot;demo&quot; 的 p 元素指定一个样式</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.html.cn/book/css/properties/background/index.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;css教程&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;css语法&quot;&gt;&lt;a hre</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>大唐兴亡三百年</title>
     <link href="http://yankaili2006.github.io/2021/03/05/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%A4%A7%E5%94%90%E5%85%B4%E4%BA%A1%E4%B8%89%E7%99%BE%E5%B9%B4/"/>
     <id>http://yankaili2006.github.io/2021/03/05/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%A4%A7%E5%94%90%E5%85%B4%E4%BA%A1%E4%B8%89%E7%99%BE%E5%B9%B4/</id>
@@ -65,8 +44,8 @@
   
   <entry>
     <title>数据交易和区块链</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/%E6%95%B0%E6%8D%AE%E4%BA%A4%E6%98%93%E5%92%8C%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/%E6%95%B0%E6%8D%AE%E4%BA%A4%E6%98%93%E5%92%8C%E5%8C%BA%E5%9D%97%E9%93%BE/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/%E6%95%B0%E6%8D%AE%E4%BA%A4%E6%98%93%E5%92%8C%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/%E6%95%B0%E6%8D%AE%E4%BA%A4%E6%98%93%E5%92%8C%E5%8C%BA%E5%9D%97%E9%93%BE/</id>
     <published>2021-03-05T02:51:50.120Z</published>
     <updated>2021-03-05T02:51:50.120Z</updated>
     
@@ -93,33 +72,9 @@
   </entry>
   
   <entry>
-    <title>量化交易平台研究</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%A0%94%E7%A9%B6/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%A0%94%E7%A9%B6/</id>
-    <published>2021-03-05T02:51:50.120Z</published>
-    <updated>2021-03-05T02:51:50.121Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="1token-trade"><a href="#1token-trade" class="headerlink" title="1token.trade"></a>1token.trade</h4><p><a href="https://1token.trade/" target="_blank" rel="noopener">https://1token.trade/</a></p><p>量化交易平台</p><p>Futuremoney</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;1token-trade&quot;&gt;&lt;a href=&quot;#1token-trade&quot; class=&quot;headerlink&quot; title=&quot;1token.trade&quot;&gt;&lt;/a&gt;1token.trade&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://1token.trade/</summary>
-      
-    
-    
-    
-    <category term="一聪财经" scheme="http://yankaili2006.github.io/categories/%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/"/>
-    
-    
-    <category term="量化交易" scheme="http://yankaili2006.github.io/tags/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/"/>
-    
-  </entry>
-  
-  <entry>
     <title>股票交易所清结算和虚拟货币券商模式对比</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/%E8%82%A1%E7%A5%A8%E4%BA%A4%E6%98%93%E6%89%80%E6%B8%85%E7%BB%93%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81%E5%88%B8%E5%95%86%E6%A8%A1%E5%BC%8F%E5%AF%B9%E6%AF%94/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/%E8%82%A1%E7%A5%A8%E4%BA%A4%E6%98%93%E6%89%80%E6%B8%85%E7%BB%93%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81%E5%88%B8%E5%95%86%E6%A8%A1%E5%BC%8F%E5%AF%B9%E6%AF%94/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/%E8%82%A1%E7%A5%A8%E4%BA%A4%E6%98%93%E6%89%80%E6%B8%85%E7%BB%93%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81%E5%88%B8%E5%95%86%E6%A8%A1%E5%BC%8F%E5%AF%B9%E6%AF%94/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/%E8%82%A1%E7%A5%A8%E4%BA%A4%E6%98%93%E6%89%80%E6%B8%85%E7%BB%93%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81%E5%88%B8%E5%95%86%E6%A8%A1%E5%BC%8F%E5%AF%B9%E6%AF%94/</id>
     <published>2021-03-05T02:51:50.120Z</published>
     <updated>2021-03-05T02:51:50.120Z</updated>
     
@@ -144,9 +99,33 @@
   </entry>
   
   <entry>
+    <title>量化交易平台研究</title>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%A0%94%E7%A9%B6/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%A0%94%E7%A9%B6/</id>
+    <published>2021-03-05T02:51:50.120Z</published>
+    <updated>2021-03-05T02:51:50.121Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1token-trade"><a href="#1token-trade" class="headerlink" title="1token.trade"></a>1token.trade</h4><p><a href="https://1token.trade/" target="_blank" rel="noopener">https://1token.trade/</a></p><p>量化交易平台</p><p>Futuremoney</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;1token-trade&quot;&gt;&lt;a href=&quot;#1token-trade&quot; class=&quot;headerlink&quot; title=&quot;1token.trade&quot;&gt;&lt;/a&gt;1token.trade&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://1token.trade/</summary>
+      
+    
+    
+    
+    <category term="一聪财经" scheme="http://yankaili2006.github.io/categories/%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/"/>
+    
+    
+    <category term="量化交易" scheme="http://yankaili2006.github.io/tags/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>OK和币安的反击</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/OK%E5%92%8C%E5%B8%81%E5%AE%89%E7%9A%84%E5%8F%8D%E5%87%BB/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/OK%E5%92%8C%E5%B8%81%E5%AE%89%E7%9A%84%E5%8F%8D%E5%87%BB/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/OK%E5%92%8C%E5%B8%81%E5%AE%89%E7%9A%84%E5%8F%8D%E5%87%BB/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/OK%E5%92%8C%E5%B8%81%E5%AE%89%E7%9A%84%E5%8F%8D%E5%87%BB/</id>
     <published>2021-03-05T02:51:50.119Z</published>
     <updated>2021-03-05T02:51:50.119Z</updated>
     
@@ -174,8 +153,8 @@
   
   <entry>
     <title>价格形成机制的思考</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/%E4%BB%B7%E6%A0%BC%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6%E7%9A%84%E6%80%9D%E8%80%83/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/%E4%BB%B7%E6%A0%BC%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6%E7%9A%84%E6%80%9D%E8%80%83/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/%E4%BB%B7%E6%A0%BC%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6%E7%9A%84%E6%80%9D%E8%80%83/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/%E4%BB%B7%E6%A0%BC%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6%E7%9A%84%E6%80%9D%E8%80%83/</id>
     <published>2021-03-05T02:51:50.119Z</published>
     <updated>2021-03-05T02:51:50.120Z</updated>
     
@@ -198,8 +177,8 @@
   
   <entry>
     <title>FT模式分析</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/FT%E6%A8%A1%E5%BC%8F%E5%88%86%E6%9E%90/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/FT%E6%A8%A1%E5%BC%8F%E5%88%86%E6%9E%90/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/FT%E6%A8%A1%E5%BC%8F%E5%88%86%E6%9E%90/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/FT%E6%A8%A1%E5%BC%8F%E5%88%86%E6%9E%90/</id>
     <published>2021-03-05T02:51:50.118Z</published>
     <updated>2021-03-05T02:51:50.118Z</updated>
     
@@ -228,8 +207,8 @@
   
   <entry>
     <title>FT的新模式和追随者们的微创新</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/FT%E7%9A%84%E6%96%B0%E6%A8%A1%E5%BC%8F%E5%92%8C%E8%BF%BD%E9%9A%8F%E8%80%85%E4%BB%AC%E7%9A%84%E5%BE%AE%E5%88%9B%E6%96%B0%E6%A8%A1%E5%BC%8F%E5%88%86%E6%9E%90/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/FT%E7%9A%84%E6%96%B0%E6%A8%A1%E5%BC%8F%E5%92%8C%E8%BF%BD%E9%9A%8F%E8%80%85%E4%BB%AC%E7%9A%84%E5%BE%AE%E5%88%9B%E6%96%B0%E6%A8%A1%E5%BC%8F%E5%88%86%E6%9E%90/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/FT%E7%9A%84%E6%96%B0%E6%A8%A1%E5%BC%8F%E5%92%8C%E8%BF%BD%E9%9A%8F%E8%80%85%E4%BB%AC%E7%9A%84%E5%BE%AE%E5%88%9B%E6%96%B0%E6%A8%A1%E5%BC%8F%E5%88%86%E6%9E%90/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/FT%E7%9A%84%E6%96%B0%E6%A8%A1%E5%BC%8F%E5%92%8C%E8%BF%BD%E9%9A%8F%E8%80%85%E4%BB%AC%E7%9A%84%E5%BE%AE%E5%88%9B%E6%96%B0%E6%A8%A1%E5%BC%8F%E5%88%86%E6%9E%90/</id>
     <published>2021-03-05T02:51:50.118Z</published>
     <updated>2021-03-05T02:51:50.118Z</updated>
     
@@ -257,8 +236,8 @@
   
   <entry>
     <title>Fomo3D现在火爆的区块链游戏和去中心化交易所</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/Fomo3D%E7%8E%B0%E5%9C%A8%E7%81%AB%E7%88%86%E7%9A%84%E5%8C%BA%E5%9D%97%E9%93%BE%E6%B8%B8%E6%88%8F%E5%92%8C%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%BA%A4%E6%98%93%E6%89%80/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/Fomo3D%E7%8E%B0%E5%9C%A8%E7%81%AB%E7%88%86%E7%9A%84%E5%8C%BA%E5%9D%97%E9%93%BE%E6%B8%B8%E6%88%8F%E5%92%8C%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%BA%A4%E6%98%93%E6%89%80/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/Fomo3D%E7%8E%B0%E5%9C%A8%E7%81%AB%E7%88%86%E7%9A%84%E5%8C%BA%E5%9D%97%E9%93%BE%E6%B8%B8%E6%88%8F%E5%92%8C%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%BA%A4%E6%98%93%E6%89%80/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/Fomo3D%E7%8E%B0%E5%9C%A8%E7%81%AB%E7%88%86%E7%9A%84%E5%8C%BA%E5%9D%97%E9%93%BE%E6%B8%B8%E6%88%8F%E5%92%8C%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%BA%A4%E6%98%93%E6%89%80/</id>
     <published>2021-03-05T02:51:50.118Z</published>
     <updated>2021-03-05T02:51:50.118Z</updated>
     
@@ -285,8 +264,8 @@
   
   <entry>
     <title>DECP</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/DCEP/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/DCEP/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/DCEP/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/DCEP/</id>
     <published>2021-03-05T02:51:50.117Z</published>
     <updated>2021-03-05T02:51:50.117Z</updated>
     
@@ -310,8 +289,8 @@
   
   <entry>
     <title>EOS RAM是一次去中心化交易平台的实践</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/EOS%20RAM%E6%98%AF%E4%B8%80%E6%AC%A1%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%AE%9E%E8%B7%B5/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/EOS%20RAM%E6%98%AF%E4%B8%80%E6%AC%A1%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%AE%9E%E8%B7%B5/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/EOS%20RAM%E6%98%AF%E4%B8%80%E6%AC%A1%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%AE%9E%E8%B7%B5/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/EOS%20RAM%E6%98%AF%E4%B8%80%E6%AC%A1%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%AE%9E%E8%B7%B5/</id>
     <published>2021-03-05T02:51:50.117Z</published>
     <updated>2021-03-05T02:51:50.117Z</updated>
     
@@ -338,8 +317,8 @@
   
   <entry>
     <title>175号文</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/175%E5%8F%B7%E6%96%87/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/175%E5%8F%B7%E6%96%87/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/175%E5%8F%B7%E6%96%87/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/175%E5%8F%B7%E6%96%87/</id>
     <published>2021-03-05T02:51:50.116Z</published>
     <updated>2021-03-05T02:51:50.116Z</updated>
     
@@ -368,8 +347,8 @@
   
   <entry>
     <title>Bancor协议：通过智能合约为加密货币提供持续流动性</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/Bancor%E5%8D%8F%E8%AE%AE%EF%BC%9A%E9%80%9A%E8%BF%87%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E4%B8%BA%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E6%8F%90%E4%BE%9B%E6%8C%81%E7%BB%AD%E6%B5%81%E5%8A%A8%E6%80%A7/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%B8%80%E8%81%AA%E8%B4%A2%E7%BB%8F/Bancor%E5%8D%8F%E8%AE%AE%EF%BC%9A%E9%80%9A%E8%BF%87%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E4%B8%BA%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E6%8F%90%E4%BE%9B%E6%8C%81%E7%BB%AD%E6%B5%81%E5%8A%A8%E6%80%A7/</id>
+    <link href="http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/Bancor%E5%8D%8F%E8%AE%AE%EF%BC%9A%E9%80%9A%E8%BF%87%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E4%B8%BA%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E6%8F%90%E4%BE%9B%E6%8C%81%E7%BB%AD%E6%B5%81%E5%8A%A8%E6%80%A7/"/>
+    <id>http://yankaili2006.github.io/2021/03/05/%E5%BC%80%E6%94%BE%E9%9A%90%E7%A7%81%E8%AE%A1%E7%AE%97/Bancor%E5%8D%8F%E8%AE%AE%EF%BC%9A%E9%80%9A%E8%BF%87%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E4%B8%BA%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E6%8F%90%E4%BE%9B%E6%8C%81%E7%BB%AD%E6%B5%81%E5%8A%A8%E6%80%A7/</id>
     <published>2021-03-05T02:51:50.116Z</published>
     <updated>2021-03-05T02:51:50.117Z</updated>
     
@@ -393,124 +372,6 @@
     <category term="加密货币" scheme="http://yankaili2006.github.io/tags/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/"/>
     
     <category term="流动性" scheme="http://yankaili2006.github.io/tags/%E6%B5%81%E5%8A%A8%E6%80%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>xunwulian.com/维护sql</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/xunwulian.com/%E7%BB%B4%E6%8A%A4sql/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/xunwulian.com/%E7%BB%B4%E6%8A%A4sql/</id>
-    <published>2021-03-05T02:51:50.115Z</published>
-    <updated>2021-03-05T02:51:50.115Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1、设置失效日期为，激活日期加一年的那个月的一号"><a href="#1、设置失效日期为，激活日期加一年的那个月的一号" class="headerlink" title="1、设置失效日期为，激活日期加一年的那个月的一号"></a>1、设置失效日期为，激活日期加一年的那个月的一号</h3><pre><code>update tb_cardinfo set user_end_date =  date_add(date_add(user_open_date, interval 1 year), interval - day( date_add(user_open_date, interval 1 year) ) + 1 day) ;</code></pre><h3 id="2、设置appName"><a href="#2、设置appName" class="headerlink" title="2、设置appName"></a>2、设置appName</h3><pre><code>update tb_cardinfo c from app a set c.app_name = a.app_name where c.app_id = a.app_id;</code></pre><h3 id="3、设置套餐"><a href="#3、设置套餐" class="headerlink" title="3、设置套餐"></a>3、设置套餐</h3><pre><code>update tb_cardinfo set user_pkg = 1 where user_pkg = 10;update tb_cardinfo set user_pkg = 2 where user_pkg = 30;update tb_cardinfo set user_pkg = 3 where user_pkg = 70;update tb_cardinfo set user_pkg = 4 where user_pkg = 150;update tb_cardinfo set user_pkg = 5 where user_pkg = 500;update tb_cardinfo set user_pkg = 6 where user_pkg = 700;update tb_cardinfo set user_pkg = 7 where user_pkg = 1024;update tb_cardinfo set user_pkg = 8 where user_pkg = 2048;</code></pre><h2 id="导入卡号命令"><a href="#导入卡号命令" class="headerlink" title="导入卡号命令"></a>导入卡号命令</h2><pre><code>cat card_20170320.txt | awk &apos;{print &quot;insert into tb_cardinfo(msisdn, user_id, sub_user_id, app_id) values(\x27&quot;$1&quot;\x27&quot;&quot;,\x27&quot;1&quot;\x27,&quot;&quot;\x27\x27&quot;&quot;,\x27zxtd\x27);&quot;}&apos; &gt;card_20170320.sql awk &apos;{print &quot;update tb_cardinfo set user_id = (select user_id from sys_user where username = \x27&quot;$3&quot;\x27), user_name =\x27&quot;$3&quot;\x27 where msisdn&gt;=\x27&quot;$1&quot;\x27 and msisdn &lt;=\x27&quot;$2&quot;\x27;&quot;}&apos;cat zxtd.txt | awk &apos;{print &quot;update tb_cardinfo set user_id = (select user_id from sys_user where username = \x27&quot;$4&quot;\x27), user_name =\x27&quot;$4&quot;\x27, app_id=\x27zxtd\x27, user_pkg=&quot;$6&quot;, user_open_date=\x27&quot;$1&quot;\x27, user_price=&quot;$7&quot; where msisdn&gt;=\x27&quot;$2&quot;\x27 and msisdn &lt;=\x27&quot;$3&quot;\x27;&quot;}&apos; &gt;zxtd.sql</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;1、设置失效日期为，激活日期加一年的那个月的一号&quot;&gt;&lt;a href=&quot;#1、设置失效日期为，激活日期加一年的那个月的一号&quot; class=&quot;headerlink&quot; title=&quot;1、设置失效日期为，激活日期加一年的那个月的一号&quot;&gt;&lt;/a&gt;1、设置失效日期为，激活日期</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>xunwulian.com/账号</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/xunwulian.com/%E8%B4%A6%E5%8F%B7/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/xunwulian.com/%E8%B4%A6%E5%8F%B7/</id>
-    <published>2021-03-05T02:51:50.115Z</published>
-    <updated>2021-03-05T02:51:50.115Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="服务器地址"><a href="#服务器地址" class="headerlink" title="服务器地址"></a>服务器地址</h3><p>52.172</p><pre><code>123.57.52.172    root   NmL*fZJyE^ZWtOJy*k*NmfyEWZZZW^ZWtO*</code></pre><p>176.31服务器</p><pre><code>101.200.176.31 端口号 8888ssh -p 8888 yankaili2006@101.200.176.31账号密码yankaili2006NmL*fJy*k*NmL*fJyE^ZWtO账号密码rootJy*kJy*k*NmfJ*Jy*k*NmfJNmfJZxtd@123</code></pre><p>北京迅物联</p><pre><code>平台登陆地址：http://101.200.176.31/登录名：DEF001密码：123123后台登录：http://101.200.176.31/admin/登录名：kongjianguo密码：jianguo123</code></pre><p>移动物联网业务管理平台：</p><pre><code>http://ec.iot.10086.cn登录名：ec_0112394密码：zhiXUN!234</code></pre><p>深圳的公司做的关于流量卡管理的网站</p><pre><code>http://www.yousim.cn:8018/</code></pre><p>知讯通达服务器：</p><pre><code>101.200.176.31adminstrator zhiXUN123</code></pre><p>知讯通达阿里云：</p><pre><code>登录名：510567577@qq.com密码：jianguo123</code></pre><p>知讯通达ec.iot.10086.cn账号：</p><pre><code>ec_0112394 密码zhiXUN!23456ec_0126193 密码zhiXUN!23456ec_0122757 密码zhiXUN!234567ec_0150136 zhiXUN!234567ec_0124728 密码zhiXUN!2345678ec_0114092 密码zhiXUN!2345678ec_0126387 密码zhiXUN!23456账号名：知迅通达密码：123456   这个是您的帐号http://gps.zhdkj.net:8885  这个是电脑板 浏览器端平台用户名北京孔经理密码123456根据ID号添加车辆，，发送指令IP 119.29.112.234 6969招聘邮箱163：mail.zhixuntongda.com用户名：kongjianguo密码：JIANguo!23拉勾登陆13601117948密码jianguo123移动网站http://ec.iot.10086.cnec_0323221@Lwk031922上海昊丞：ec_0323221 @Lwk031922桐如科技：ec_0324707 @LWK666888李建峰：lijianfeng Ljf2016,.山东账号ec_1559092 密码15716999235Abc！测试账号：ceshiCeshi@12314760660600</code></pre><p>阿里云账号：</p><pre><code>159014119848880066ccivv备案系统https://beian.gein.cn/order/index.htm18830696669@163.com8880066ccivvcoola58@163.com86581214</code></pre><p>第一年免费，第二年可以续费，沉默期可以支持三个月。另外还有支持语音的卡。</p><p>河北桐如信息技术有限公司<br>河北隽如信息技术有限公司</p><pre><code>魏强13903116905，你就说是高旭的朋友刘东仁13931900144  主管15931981561张恒， 中心主任18803190025曹雷雷，邢台主管集客工作的副总经理孙艳红18803190025集客部主任林宪勇13931956456集客部主管，我好哥们张冰13503198051重客中心主任蒋会卿15703192556网优中心班长尚立平15803192556，蒋会卿媳妇，也是我们这一批的，综合部主任戴维娜15003199933目前在财务，以后结算财务问题可以找她</code></pre><p>2917630253</p><p>淘宝帐号密码：</p><pre><code>2102361372@qq.comLWK031922,LWK031922</code></pre><p>邮箱：<a href="mailto:zyf.z@e-joined.com">zyf.z@e-joined.com</a>，地址：广东省广州市越秀区东风中路437号越秀城市广场南塔3101，曾一帆，18928934954</p><pre><code>18830696669@163.comhebeitongru12345NmL*fJy*k*NmL*fJyE^ZWtO8880066ccIvvNmL*fJyE^ZWtOfJy*k*NmfJyE^ZWtOL*Zkp19870106东营移动http://223.99.141.141:10210/sdiotss/帐号 河北桐如密码 Trkj3500网络4001 10086 6服务器地址:45.32.10.137mysql:8880066微信：微信支付商户号 1326297901商户平台登录帐号 1326297901@1326297901商户平台登录密码 850404申请对应的公众号 讯物联（）公众号APPID wx863985c3fec3b18adocument.write(&apos;&lt;img src=\&apos;&apos;+SitePath+&apos;template/paody/images/950x90.jpg\&apos; /&gt;&apos;)UPDATE mac_vod SET d_downurl=REPLACE(d_downurl, &apos;localhost&apos;, &apos;disk.452b.ren&apos;);select * from mac_vod where d_downurl !=&apos;&apos; limit 1,10;UPDATE mac_vod SET d_downurl=REPLACE(d_downurl, &apos;disk.452b.ren/disk&apos;, &apos;disk.452b.ren&apos;);API Keyc77ab855aea3f20a894887f914fd265f5b14defbSecretacfc962530acff08a6a235f6609d4927383b73a7随机生成私钥私钥：5HtGfkCiCHsMxGtKApFcak1gz5Vnu75nSxCVtCL7bfdhJwG5Yyr公钥：EOS7UtDo5eqTHZCLepZijQpngUvv1xrAVoMr3M4vAHKFFio718x1b邮箱yankaili2006@163.comccivv@2058.comwx39ceb8293ae88217eea745d7eafd01ab5ff2cac8999f353fservice confluence restart 重启命令安装目录/opt/atlassian/confluence/confluence/数据库用的你原先的，库名confluence用户confluenceuser  密码：confluencepass#WD12yankaili2006@163.com8880066ccivv39.106.146.10560.205.230.2118880066ccIvvinsert into tb_cardinfo(msisdn, user_id, user_name, app_id) values(&apos;1440387233474&apos;, &apos;1&apos;, &apos;admin&apos;, &apos;WXTSDSDT&apos;);</code></pre><p>8880066ccIvv</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;服务器地址&quot;&gt;&lt;a href=&quot;#服务器地址&quot; class=&quot;headerlink&quot; title=&quot;服务器地址&quot;&gt;&lt;/a&gt;服务器地址&lt;/h3&gt;&lt;p&gt;52.172&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;123.57.52.172
-    root   NmL*fZJyE^Z</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>xunwulian.com/server</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/xunwulian.com/server/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/xunwulian.com/server/</id>
-    <published>2021-03-05T02:51:50.114Z</published>
-    <updated>2021-03-05T02:51:50.114Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>xunwulian.com/build_123</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/xunwulian.com/build_123/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/xunwulian.com/build_123/</id>
-    <published>2021-03-05T02:51:50.114Z</published>
-    <updated>2021-03-05T02:51:50.114Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="删除已经存在的镜像"><a href="#删除已经存在的镜像" class="headerlink" title="删除已经存在的镜像"></a>删除已经存在的镜像</h4><pre><code>docker rm xwl-weixin-h5docker rm xwl-webdocker rm xwl-clientdocker rm xwl-dubbo</code></pre><h4 id="构建镜像"><a href="#构建镜像" class="headerlink" title="构建镜像"></a>构建镜像</h4><pre><code>export JENKINS_JOB=/var/lib/jenkins/workspace/xunwuliancd $JENKINS_JOB/xwl-dubbodocker build -t 123.57.52.172:5000/xwl-dubbo:latest .docker push 123.57.52.172:5000/xwl-dubbo:latestcd $JENKINS_JOB/xwl-cmpp-clientdocker build -t 123.57.52.172:5000/xwl-client:latest .docker push 123.57.52.172:5000/xwl-client:latestcd $JENKINS_JOB/xwl-webdocker build -t 123.57.52.172:5000/xwl-web:latest .docker push 123.57.52.172:5000/xwl-web:latestcd $JENKINS_JOB/xwl-weixin-h5docker build -t 123.57.52.172:5000/xwl-weixin-h5:latest .docker push 123.57.52.172:5000/xwl-weixin-h5:latest</code></pre><h4 id="拉取最新镜像"><a href="#拉取最新镜像" class="headerlink" title="拉取最新镜像"></a>拉取最新镜像</h4><pre><code>docker pull 123.57.52.172:5000/xwl-dubbo:latestdocker pull 123.57.52.172:5000/xwl-client:latestdocker pull 123.57.52.172:5000/xwl-web:latestdocker pull 123.57.52.172:5000/xwl-weixin-h5:latest</code></pre><h4 id="运行docker-xwl"><a href="#运行docker-xwl" class="headerlink" title="运行docker xwl"></a>运行docker xwl</h4><h5 id="dubbo"><a href="#dubbo" class="headerlink" title="dubbo"></a>dubbo</h5><pre><code>docker run -d --restart unless-stopped -p 20880:20880 --name dubbo-xwl-v2 -v /opt/tomcat/xwl-web/upload:/opt/tomcat/xwl-web/upload -e &quot;appId=xwl&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-dubbo:latest</code></pre><h5 id="client"><a href="#client" class="headerlink" title="client"></a>client</h5><pre><code>docker run -d --restart unless-stopped -p 20881:20880 --name client-xwl-v2 -e &quot;appId=xwl&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20882:20880 --name client-wxtsd-v2 -e &quot;appId=wxtsd&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20883:20880 --name client-zxrr-v2 -e &quot;appId=ZXRR&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20884:20880 --name client-hbwh-v2 -e &quot;appId=hbwh&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl  -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20885:20880 --name client-dchh-v2 -e &quot;appId=dchh&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20886:20880 --name client-jtxtrd-v2 -e &quot;appId=JTXTRD&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20887:20880 --name client-hbtrxxjs-v2 -e &quot;appId=HBTRXXJS&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20888:20880 --name client-wxtsdsdt-v2 -e &quot;appId=WXTSDSDT&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20889:20880 --name client-xwltqdh-v2 -e &quot;appId=TQDH&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latest</code></pre><h5 id="web"><a href="#web" class="headerlink" title="web"></a>web</h5><pre><code>docker run -d --restart unless-stopped -p 5081:8080 --name xwl-web-v2 -v /opt/tomcat/xwl-web/upload:/opt/tomcat/xwl-web/upload -e &quot;appId=xwl&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-web:latestdocker run -d --restart unless-stopped -p 5082:8080 --name xwl-weixin-v2 -e &quot;appId=xwl&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-weixin-h5:latest</code></pre><h4 id="运行docker-zxtd"><a href="#运行docker-zxtd" class="headerlink" title="运行docker  zxtd"></a>运行docker  zxtd</h4><h3 id="zxtd"><a href="#zxtd" class="headerlink" title="zxtd"></a>zxtd</h3><pre><code>docker run -d --restart unless-stopped --net=host -p 20880:20880 --name dubbo-zxtd -e &quot;appId=zxtd&quot; -e &quot;registry=zookeeper://101.200.176.31:2181?backup=101.200.176.31:2182,101.200.176.31:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=zxtd -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-dubbo:latestdocker run -d --restart unless-stopped -p 20881:20880 --name client-zxtd -e &quot;appId=zxtd&quot; -e &quot;registry=zookeeper://101.200.176.31:2181?backup=101.200.176.31:2182,101.200.176.31:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=zxtd -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 5081:8080 --name web-zxtd -e &quot;appId=zxtd&quot; -e &quot;registry=zookeeper://101.200.176.31:2181?backup=101.200.176.31:2182,101.200.176.31:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=zxtd -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; 123.57.52.172:5000/xwl-web:latest</code></pre><h4 id="运行时环境变量"><a href="#运行时环境变量" class="headerlink" title="运行时环境变量"></a>运行时环境变量</h4><pre><code>JAVA_OPTS=&quot;-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot;environment:  - JVM_OPTS=-Xmx12g -Xms12g -XX:MaxPermSize=1024m</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;删除已经存在的镜像&quot;&gt;&lt;a href=&quot;#删除已经存在的镜像&quot; class=&quot;headerlink&quot; title=&quot;删除已经存在的镜像&quot;&gt;&lt;/a&gt;删除已经存在的镜像&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;docker rm xwl-weixin-h5
-docker rm </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>xunwulian.com/build</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/xunwulian.com/build/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/xunwulian.com/build/</id>
-    <published>2021-03-05T02:51:50.114Z</published>
-    <updated>2021-03-05T02:51:50.114Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="删除已经存在的镜像"><a href="#删除已经存在的镜像" class="headerlink" title="删除已经存在的镜像"></a>删除已经存在的镜像</h4><pre><code>docker rm xwl-weixin-h5docker rm xwl-webdocker rm xwl-clientdocker rm xwl-dubbo</code></pre><h4 id="构建镜像"><a href="#构建镜像" class="headerlink" title="构建镜像"></a>构建镜像</h4><pre><code>export JENKINS_JOB=/data/jenkins/jobs/zxtd/workspacecd $JENKINS_JOB/xwl-dubbodocker build -t www.zhixuntongda.com:5000/xwl-dubbo:latest .docker push www.zhixuntongda.com:5000/xwl-dubbo:latestcd $JENKINS_JOB/xwl-cmpp-clientdocker build -t www.zhixuntongda.com:5000/xwl-client:latest .docker push www.zhixuntongda.com:5000/xwl-client:latestcd $JENKINS_JOB/xwl-webdocker build -t www.zhixuntongda.com:5000/xwl-web:latest .docker push www.zhixuntongda.com:5000/xwl-web:latestcd $JENKINS_JOB/xwl-weixin-h5docker build -t www.zhixuntongda.com:5000/xwl-weixin-h5:latest .docker push www.zhixuntongda.com:5000/xwl-weixin-h5:latest</code></pre><h4 id="拉取最新镜像"><a href="#拉取最新镜像" class="headerlink" title="拉取最新镜像"></a>拉取最新镜像</h4><pre><code>docker pull www.zhixuntongda.com:5000/xwl-dubbo:latestdocker pull www.zhixuntongda.com:5000/xwl-client:latestdocker pull www.zhixuntongda.com:5000/xwl-web:latestdocker pull www.zhixuntongda.com:5000/xwl-weixin-h5:latest</code></pre><h4 id="运行docker-xwl"><a href="#运行docker-xwl" class="headerlink" title="运行docker xwl"></a>运行docker xwl</h4><h5 id="dubbo"><a href="#dubbo" class="headerlink" title="dubbo"></a>dubbo</h5><pre><code>docker run -d --restart unless-stopped -p 20880:20880 --name dubbo-xwl-v2 -v /opt/tomcat/xwl-web/upload:/opt/tomcat/xwl-web/upload -e &quot;appId=xwl&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-dubbo:latest</code></pre><h5 id="client"><a href="#client" class="headerlink" title="client"></a>client</h5><pre><code>docker run -d --restart unless-stopped -p 20881:20880 --name client-xwl-v2 -e &quot;appId=xwl&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20882:20880 --name client-wxtsd-v2 -e &quot;appId=wxtsd&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20883:20880 --name client-zxrr-v2 -e &quot;appId=ZXRR&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20884:20880 --name client-hbwh-v2 -e &quot;appId=hbwh&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl  -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20885:20880 --name client-dchh-v2 -e &quot;appId=dchh&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20886:20880 --name client-jtxtrd-v2 -e &quot;appId=JTXTRD&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20887:20880 --name client-hbtrxxjs-v2 -e &quot;appId=HBTRXXJS&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20888:20880 --name client-wxtsdsdt-v2 -e &quot;appId=WXTSDSDT&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 20889:20880 --name client-xwltqdh-v2 -e &quot;appId=TQDH&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latest</code></pre><h5 id="web"><a href="#web" class="headerlink" title="web"></a>web</h5><pre><code>docker run -d --restart unless-stopped -p 5081:8080 --name xwl-web-v2 -v /opt/tomcat/xwl-web/upload:/opt/tomcat/xwl-web/upload -e &quot;appId=xwl&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-web:latestdocker run -d --restart unless-stopped -p 5082:8080 --name xwl-weixin-v2 -e &quot;appId=xwl&quot; -e &quot;registry=zookeeper://123.57.52.172:2181?backup=123.57.52.172:2182,123.57.52.172:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-weixin-h5:latest</code></pre><h4 id="运行docker-zxtd"><a href="#运行docker-zxtd" class="headerlink" title="运行docker  zxtd"></a>运行docker  zxtd</h4><h3 id="zxtd"><a href="#zxtd" class="headerlink" title="zxtd"></a>zxtd</h3><pre><code>docker run -d --restart unless-stopped --net=host -p 20880:20880 --name dubbo-zxtd -e &quot;appId=zxtd&quot; -e &quot;registry=zookeeper://101.200.176.31:2181?backup=101.200.176.31:2182,101.200.176.31:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=zxtd -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-dubbo:latestdocker run -d --restart unless-stopped -p 20881:20880 --name client-zxtd -e &quot;appId=zxtd&quot; -e &quot;registry=zookeeper://101.200.176.31:2181?backup=101.200.176.31:2182,101.200.176.31:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=zxtd -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-client:latestdocker run -d --restart unless-stopped -p 5081:8080 --name web-zxtd -e &quot;appId=zxtd&quot; -e &quot;registry=zookeeper://101.200.176.31:2181?backup=101.200.176.31:2182,101.200.176.31:2183&quot; -e &quot;JAVA_OPTS=-Dspring.profiles.active=zxtd -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot; www.zhixuntongda.com:5000/xwl-web:latest</code></pre><h4 id="运行时环境变量"><a href="#运行时环境变量" class="headerlink" title="运行时环境变量"></a>运行时环境变量</h4><pre><code>JAVA_OPTS=&quot;-Dspring.profiles.active=xwl -Xms128m -Xmx512m -Xss512k -XX:NewSize=128m -server -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:/tmp/gc.log&quot;environment:  - JVM_OPTS=-Xmx12g -Xms12g -XX:MaxPermSize=1024m</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h4 id=&quot;删除已经存在的镜像&quot;&gt;&lt;a href=&quot;#删除已经存在的镜像&quot; class=&quot;headerlink&quot; title=&quot;删除已经存在的镜像&quot;&gt;&lt;/a&gt;删除已经存在的镜像&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;docker rm xwl-weixin-h5
-docker rm </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>xunwulian.com/shell</title>
-    <link href="http://yankaili2006.github.io/2021/03/05/xunwulian.com/shell/"/>
-    <id>http://yankaili2006.github.io/2021/03/05/xunwulian.com/shell/</id>
-    <published>2021-03-05T02:51:50.114Z</published>
-    <updated>2021-03-05T02:51:50.115Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="重启整个服务-迅物联"><a href="#重启整个服务-迅物联" class="headerlink" title="重启整个服务  迅物联"></a>重启整个服务  迅物联</h3><pre><code>docker restart dubbo-xwl-v2docker restart client-lyygrl-v2docker restart client-xwltqdh-v2docker restart client-wxtsdsdt-v2docker restart client-hbtrxxjs-v2docker restart client-jtxtrd-v2docker restart client-dchh-v2docker restart client-zxrr-v2docker restart client-wxtsd-v2docker restart client-xwl-v2docker restart client-hbwh-v2docker restart xwl-web-v2</code></pre><h3 id="重启服务-知讯通达"><a href="#重启服务-知讯通达" class="headerlink" title="重启服务 知讯通达"></a>重启服务 知讯通达</h3><pre><code>docker restart dubbo-zxtddocker restart client-zxtddocker restart web-zxtd</code></pre><h3 id="清理文件命令"><a href="#清理文件命令" class="headerlink" title="清理文件命令"></a>清理文件命令</h3><p>清理大文件</p><pre><code>find . -size +100M -exec ls -lh {} \;find . -name &apos;*.log&apos; -size +100M -exec rm -rf {} \;</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;重启整个服务-迅物联&quot;&gt;&lt;a href=&quot;#重启整个服务-迅物联&quot; class=&quot;headerlink&quot; title=&quot;重启整个服务  迅物联&quot;&gt;&lt;/a&gt;重启整个服务  迅物联&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;docker restart dubbo-xwl-v2
-</summary>
-      
-    
-    
-    
     
   </entry>
   
